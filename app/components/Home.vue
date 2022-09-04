@@ -28,7 +28,7 @@
         console.log("Open popup");
         const options: VueBottomSheetOptions = {
         };
-        this.$showBottomSheet(BottomSheet, options);
+        this.$showBottomSheet(BottomSheet, options); 
       }
     }
   });
