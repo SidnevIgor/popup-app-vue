@@ -17,12 +17,6 @@
   
 
   export default Vue.extend({
-    computed: {
-      message() {
-        return "Blank {N}-Vue app";
-      },
-    },
-    
     methods: {
       onOpenPopup() {
         console.log("Open popup");
